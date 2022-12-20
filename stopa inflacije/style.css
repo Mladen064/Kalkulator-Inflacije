@@ -1,0 +1,69 @@
+*{
+    background-color: rgba(99, 126, 158, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background-overlay{
+   
+    position:relative;
+    width: 100%;
+    padding: 10px;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(133, 191, 209, 0.2);;
+    max-width: 800px;
+    margin:auto;
+    border: 2px solid rgb(32, 58, 209);
+    border-radius: 30px;
+    background-color: rgba(133, 191, 209, 0.2);
+    padding: 20px;
+}
+.container input{
+    background-color: white;
+    max-width: 80px;
+    height: 40px;
+    text-align: center;
+    
+}
+.container input:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.container button{
+    padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: rgba(133, 191, 209, 0.2);
+	cursor: pointer;
+	border-radius: 10px;
+}
+.container button:active{
+    background-color: rgba(133, 191, 209, 0.2);
+    box-shadow: 0 5px rgb(8, 8, 8);
+    transform: translateY(4px);
+}
+
+body{
+    background-image: url('slika1.jpg');
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+h3{
+    margin-bottom: 15px;
+}
+.new-value{
+    margin-top: 20px;
+    font-size: 20px;
+}
