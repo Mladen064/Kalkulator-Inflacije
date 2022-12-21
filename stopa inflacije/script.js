@@ -17,11 +17,20 @@ function inflationCalculator()
         konacnaInflacija +=konacnaInflacija * (inflacija/100);
     }
 
+        
     konacnaInflacija=konacnaInflacija.toFixed(2);
+
+    let konacnokonacno=('Ukupna inflacija iznosi :'+ konacnaInflacija);
+    
 
     let newElement = document.createElement('div');
     newElement.className = 'new-value';
-    newElement.innerText ='Danasnjih ${para} vredi isto kao ${konacnaInflacija} za ${godina} godina';
+    console.log(konacnaInflacija);
+    window.alert(konacnokonacno);
+    window.location.reload(true);
+    
+    
 
     document.querySelector('.container').appendChild(newElement);
 }
+ 
